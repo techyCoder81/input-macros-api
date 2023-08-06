@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "macros": [
+    {
+      "name": "EWGF Right",
+      "trigger": {
+        "action": "DpadRight",
+        "kind": "Holding"
+      },
+      "steps": [
+        {
+          "buttons": [],
+          "sticks": {
+            "lstick_x": 0,
+            "lstick_y": 0,
+            "rstick_x": 0,
+            "rstick_y": 0
+          },
+          "hold_frames": 1
+        },
+        {
+          "buttons": [],
+          "sticks": {
+            "lstick_x": 127,
+            "lstick_y": 0,
+            "rstick_x": 0,
+            "rstick_y": 0
+          }
+        },
+        {
+          "buttons": [
+            "Attack",
+            "AttackAll"
+          ],
+          "sticks": {
+            "lstick_x": 0,
+            "lstick_y": -127,
+            "rstick_x": 0,
+            "rstick_y": 0
+          }
+        },
+        {
+          "buttons": [],
+          "sticks": {
+            "lstick_x": 127,
+            "lstick_y": -100,
+            "rstick_x": 0,
+            "rstick_y": 0
+          },
+          "hold_frames": 3
+        }
+      ]
+    }
+  ]
+}

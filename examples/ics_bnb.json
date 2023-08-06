@@ -1,0 +1,134 @@
+{
+    "enabled": true,
+    "reload": true,
+    "macros": [
+        {
+            "name": "Simple ICs 0% BnB",
+            "trigger": {
+                "action": "DpadRight",
+                "kind": "JustPressed"
+            },
+            "steps": [
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 0,
+                      "lstick_y": -127,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    }
+                },
+                {
+                    "buttons": ["Guard"],
+                    "sticks": {
+                      "lstick_x": 127,
+                      "lstick_y": 40,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 45
+                },
+                {
+                    "buttons": ["AttackAll"],
+                    "sticks": {
+                      "lstick_x": 127,
+                      "lstick_y": 100,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 3
+                },
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 127,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 20
+                },
+                {
+                    "buttons": ["Special"],
+                    "sticks": {
+                      "lstick_x": 80,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 1
+                },
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 80,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 25
+                },
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 0,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 3
+                },
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 127,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 25
+                },
+                {
+                    "buttons": ["Guard", "Attack"],
+                    "sticks": {
+                      "lstick_x": 127,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 1
+                },
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 0,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 30
+                },
+                {
+                    "buttons": [],
+                    "sticks": {
+                      "lstick_x": 0,
+                      "lstick_y": -127,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 10
+                },
+                {
+                    "buttons": ["Smash"],
+                    "sticks": {
+                      "lstick_x": 127,
+                      "lstick_y": 0,
+                      "rstick_x": 0,
+                      "rstick_y": 0
+                    },
+                    "hold_frames": 30
+                }
+            ]
+        }
+    ]
+}

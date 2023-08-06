@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "reload": true,
+    "macros": [
+        {
+            "name": "Fullhop Button",
+            "trigger": {
+                "action": "ButtonY",
+                "kind": "JustPressed"
+            },
+            "steps": [
+                {
+                    "buttons": ["Jump"],
+                    "hold_frames": 4
+                }
+            ]
+        }
+    ]
+}

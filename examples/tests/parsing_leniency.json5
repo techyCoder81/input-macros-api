@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "macros": [
+    {
+      "name": "Lenient Json Parsing",
+      "trigger": {
+        "action": "DpadRight", // trailing comma, with comment
+      },
+      "steps": [
+      ]
+    }
+  ]
+}

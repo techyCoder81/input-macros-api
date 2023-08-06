@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "reload": true,
+    "macros": [
+        {
+            "name": "Shorthop Button",
+            "trigger": {
+                "action": "ButtonY",
+                "kind": "JustPressed"
+            },
+            "steps": [
+                {
+                    "buttons": ["JumpMini", "Jump"],
+                    "hold_frames": 1
+                }
+            ]
+        }
+    ]
+}

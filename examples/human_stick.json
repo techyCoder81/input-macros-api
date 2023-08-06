@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "reload": true,
+    "macros": [
+        {
+            "name": "Allowing Human Stick Position",
+            "trigger": {
+                "action": "DpadRight",
+                "kind": "JustPressed"
+            },
+            "steps": [
+                {
+                    "buttons": ["Guard"], // you are forced into shield, but can still control stick position.
+                    "hold_frames": 600
+                }
+            ]
+        }
+    ]
+}
