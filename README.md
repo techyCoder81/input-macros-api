@@ -4,8 +4,13 @@ This plugin and related API implements a mechanism of assigning a complex series
 ### Online Disclaimer
 This plugin does not function online. There is an explicit check to ensure that no macro logic can be executed when in an online gamemode.
 
-## Usage
+## Plugin Usage
 Simply place a populated `macros.json` file at the root of your SD card (the specific name `macros.json` is important), along with `libinput_macros.nro` in the skyline plugins directory. If `reload` is enabled, feel free to reload the json file at runtime with the plus (+) button.
+
+## API Usage
+Currently, this crate only exposes the macro structure definitions, so that other applications can parse the recorded macros and/or write their own. Over time various exposed functions will be added which can call into and control macro playback state, for things like TAS tools and other recording/playback uses (Training Modpack, is that you?). 
+
+Reminder again, the playback mechanism is closed source in the plugin, and includes checks to ensure that it does not work online.
 
 ## Examples
 The `ewgf.json` file in the `/examples/` folder is an example of macroing EWGF on DpadLeft and DpadRight.
