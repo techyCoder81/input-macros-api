@@ -2,10 +2,13 @@
 This plugin and related API implements a mechanism of assigning a complex series of button inputs and stick positions to a specific macro button, such as left or right dpad. When triggered, a defined macro will override all inputs for the specified series of frames. 
 
 ### Online Disclaimer
-This plugin does not function online. There is an explicit check to ensure that no macro logic can be executed when in an online gamemode.
+This plugin will not function in any online matches.
 
-## Usage
+## Plugin Usage
 Simply place a populated `macros.json` file at the root of your SD card (the specific name `macros.json` is important), along with `libinput_macros.nro` in the skyline plugins directory. If `reload` is enabled, feel free to reload the json file at runtime with the plus (+) button.
+
+## API Usage
+Currently, this crate only exposes the macro structure definitions, so that other applications can parse the recorded macros and/or write their own. Over time various exposed functions will be added to control macro playback/recording, for novel uses like TAS and recording/playback. (Training Modpack, is that you?)
 
 ## Examples
 The `ewgf.json` file in the `/examples/` folder is an example of macroing EWGF on DpadLeft and DpadRight.
